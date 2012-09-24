@@ -1,7 +1,9 @@
 set :application, "Demo"
-set :repository,  "set your repository location here"
+set :repository,  "git@github.com:danielhelfer/demo.git"
 
 set :scm, :git
+set :scm_username, "danielhelfer"
+
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
 set :deploy_to, "/webapps/demo"
